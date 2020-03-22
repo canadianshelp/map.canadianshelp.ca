@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar';
+import SidebarToggle from './SidebarToggle';
 import Map from './Map';
 import MapMarker from './MapMarker';
 import MapSearch from './MapSearch';
@@ -11,10 +12,13 @@ import turfDistance from '@turf/distance';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    const isMobile = window.innerWidth <= 600;
     this.state = {
       map: null,
       data: [],
       userLocation: null,
+      showSidebar: !isMobile,
+      isMobile
     };
   }
 
@@ -63,8 +67,16 @@ class App extends React.Component {
   onSidebarItemClick = (item) => {
     this.state.map.flyTo({
       center: [item.lng, item.lat],
-      zoom: 15
+      zoom: 15,
     });
+    if (this.state.isMobile) {
+      this.setState({ showSidebar: false });
+    }
+  }
+
+  onSidebarToggleClick = () => {
+    console.log("onSidebarToggleClick");
+    this.setState({showSidebar: !this.state.showSidebar});
   }
 
   render() {
@@ -76,7 +88,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Map onMapLoaded={this.onMapLoaded} />
-        <Sidebar data={this.state.data} onSidebarItemClick={this.onSidebarItemClick} />
+        <Sidebar showSidebar={this.state.showSidebar} data={this.state.data} onSidebarItemClick={this.onSidebarItemClick} />
+        <SidebarToggle showSidebar={this.state.showSidebar} onSidebarToggleClick={this.onSidebarToggleClick} />
         <MapSearch map={this.state.map} onGeocodeResult={this.onGeocodeResult} />
         { Markers }
       </div>

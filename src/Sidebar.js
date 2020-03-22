@@ -17,7 +17,7 @@ function Sidebar(props) {
     }
 
     return (
-        <div className='sidebar__container'>
+        <div className='sidebar__container' style={{ display: props.showSidebar ? 'block' : 'none' }}>
             <div className='sidebar__header'>Canadians Help</div>
             <div className='sidebar__helptext'>Find local volunteers nearby willing to lend a hand</div>
             {items}
