@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71420d2b0c6820b46e1b8be5e211525e",
+    "revision": "a153ae421dea8c766b3c8d509e209790",
     "url": "/canadianshelp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/canadianshelp/static/css/2.89e250a1.chunk.css"
   },
   {
-    "revision": "43002887bff1cfb03c34",
-    "url": "/canadianshelp/static/css/main.97f8f30f.chunk.css"
+    "revision": "fa4f2101d40df187fce6",
+    "url": "/canadianshelp/static/css/main.e66f0da5.chunk.css"
   },
   {
     "revision": "d95a91e1f1e29024cbbe",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/canadianshelp/static/js/2.30e2b1f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43002887bff1cfb03c34",
-    "url": "/canadianshelp/static/js/main.95c50797.chunk.js"
+    "revision": "fa4f2101d40df187fce6",
+    "url": "/canadianshelp/static/js/main.639f0442.chunk.js"
   },
   {
     "revision": "e31b735d15f2d73ea4b1",

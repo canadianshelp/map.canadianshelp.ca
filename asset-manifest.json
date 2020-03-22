@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/canadianshelp/static/css/main.97f8f30f.chunk.css",
-    "main.js": "/canadianshelp/static/js/main.95c50797.chunk.js",
-    "main.js.map": "/canadianshelp/static/js/main.95c50797.chunk.js.map",
+    "main.css": "/canadianshelp/static/css/main.e66f0da5.chunk.css",
+    "main.js": "/canadianshelp/static/js/main.639f0442.chunk.js",
+    "main.js.map": "/canadianshelp/static/js/main.639f0442.chunk.js.map",
     "runtime-main.js": "/canadianshelp/static/js/runtime-main.b77d1fb8.js",
     "runtime-main.js.map": "/canadianshelp/static/js/runtime-main.b77d1fb8.js.map",
     "static/css/2.89e250a1.chunk.css": "/canadianshelp/static/css/2.89e250a1.chunk.css",
     "static/js/2.30e2b1f8.chunk.js": "/canadianshelp/static/js/2.30e2b1f8.chunk.js",
     "static/js/2.30e2b1f8.chunk.js.map": "/canadianshelp/static/js/2.30e2b1f8.chunk.js.map",
     "index.html": "/canadianshelp/index.html",
-    "precache-manifest.9aa94c24c1d809fe9087d15777667bb3.js": "/canadianshelp/precache-manifest.9aa94c24c1d809fe9087d15777667bb3.js",
+    "precache-manifest.a07ed4d8c25b8aa27cba78d766213fd3.js": "/canadianshelp/precache-manifest.a07ed4d8c25b8aa27cba78d766213fd3.js",
     "service-worker.js": "/canadianshelp/service-worker.js",
     "static/css/2.89e250a1.chunk.css.map": "/canadianshelp/static/css/2.89e250a1.chunk.css.map",
-    "static/css/main.97f8f30f.chunk.css.map": "/canadianshelp/static/css/main.97f8f30f.chunk.css.map",
+    "static/css/main.e66f0da5.chunk.css.map": "/canadianshelp/static/css/main.e66f0da5.chunk.css.map",
     "static/js/2.30e2b1f8.chunk.js.LICENSE.txt": "/canadianshelp/static/js/2.30e2b1f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b77d1fb8.js",
     "static/css/2.89e250a1.chunk.css",
     "static/js/2.30e2b1f8.chunk.js",
-    "static/css/main.97f8f30f.chunk.css",
-    "static/js/main.95c50797.chunk.js"
+    "static/css/main.e66f0da5.chunk.css",
+    "static/js/main.639f0442.chunk.js"
   ]
 }
