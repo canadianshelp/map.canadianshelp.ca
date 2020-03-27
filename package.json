@@ -2,7 +2,7 @@
   "name": "canadianshelp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danpaz.github.io/canadianshelp",
+  "homepage": "https://map.canadianshelp.ca",
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.5.1",
     "@testing-library/jest-dom": "^4.2.4",
